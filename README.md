@@ -1,9 +1,10 @@
 # The Full Stack Conf.
 > Responsive one page web site
-
 > Responsive Layouts with the Bootstrap Grid
 
 - `Project goals: Imporve my bootsrap skils.`
+
+- **[hasantezcan.github.io/full-stack-conf](https://hasantezcan.github.io/full-stack-conf/index.html)**
 
 <p align="center">
 	<img alt="responsive-gif" src="img/3.gif" width="650">
@@ -112,7 +113,7 @@ You can set div posion inorder to screen size.
 https://getbootstrap.com/docs/4.2/layout/grid/#reorderingUse
 
 
-### ml-auto
+### `ml-auto`
 margin left auto this class silde the div en of the line.
 
 ### `target="_blank"`
@@ -248,7 +249,7 @@ https://teamtreehouse.com/community/why-does-the-dataoffset-not-work-the-same-as
 
 ---
 
-# `Form Groups and Form Controls`
+## Form Groups and Form Controls
 
 https://getbootstrap.com/docs/4.2/content/reboot/#forms
 
@@ -327,4 +328,4 @@ Bootstrap also provides an interactive alert box that closes when a user clicks 
 
 The alert box displays above the form and when you click the close icon, the alert box disappears. And notice the fading effect.
 
-	class="fade show" 
+	class="fade show"
