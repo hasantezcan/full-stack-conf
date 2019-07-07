@@ -1,6 +1,9 @@
-# Responsive Layouts with the Bootstrap Grid
+# The Full Stack Conf.
+> Responsive one page web site
 
-## `Project goals: Imporve my bootsrap skils.`
+> Responsive Layouts with the Bootstrap Grid
+
+- `Project goals: Imporve my bootsrap skils.`
 
 <p align="center">
 	<img alt="responsive-gif" src="img/3.gif" width="650">
@@ -15,9 +18,8 @@
 	<img alt="responsive-gif" src="img/1.gif" width="650">
 </p>
 
-
 ----
-# Bootstrap 4 Notes 
+# Bootstrap 4 Notes
 
 ### `How to inculude Bootstrap files on my project?`
 
@@ -51,7 +53,7 @@ Cross browser compalabition
 
 - Columns
 
-### Auto Command Line Short Cut 
+### Auto Command Line Short Cut
 
 	ctrl + "forwad /"
 
@@ -66,7 +68,7 @@ But if you're creating a page without the grid system, you can still use contain
 
 https://getbootstrap.com/docs/4.0/layout/overview/#containers
 
-Use ".container-fluid" for a **full width** container, **spanning** the entire width of the viewport.	
+Use ".container-fluid" for a **full width** container, **spanning** the entire width of the viewport.
 
 ```html
 <div class="container-fluid">
@@ -74,20 +76,18 @@ Use ".container-fluid" for a **full width** container, **spanning** the entire w
 </div>
 ```
 
-NOTE: 
-
-When a Bootstrap container is fluid, there´s no max width set on the container, like there is when it´s a fixed width container.So that means your content will keep expanding to the width of the view port, no matter how wide it gets. And this can make your content **difficult to read** in **extra-large devices,like wide desktop screens.**
+`NOTE:` When a Bootstrap container is fluid, there´s no max width set on the container, like there is when it´s a fixed width container.So that means your content will keep expanding to the width of the view port, no matter how wide it gets. And this can make your content **difficult to read** in **extra-large devices,like wide desktop screens.**
 
 
-### Responsive Design 
+### `Responsive Design`
 
 You can use the bootstrap grind system for making responsive your site.
 
 You can set the site screen view step by step. (desktop[xl], tablet[md], phone[sm])
 
-```hmtl 
+```hmtl
 <div class= "col-lg col-xl-6">
-``` 
+```
 
 in this example, this div will differnt look for lg screen and xl screen.  
 
@@ -96,20 +96,20 @@ in this example, this div will differnt look for lg screen and xl screen.
 
 use this tag
 
-class="img-fluid" 
+class="img-fluid"
 
 and also if you use this tag the image will seems like a little bit a rounded
 
-class="rounded" 
+class="rounded"
 
 https://getbootstrap.com/docs/4.2/content/images/
 
 
 ### `Reordering - Order classes`
 
-You can set div posion inorder to screen size. 
+You can set div posion inorder to screen size.
 
-https://getbootstrap.com/docs/4.2/layout/grid/#reorderingUse 
+https://getbootstrap.com/docs/4.2/layout/grid/#reorderingUse
 
 
 ### ml-auto
@@ -117,9 +117,9 @@ margin left auto this class silde the div en of the line.
 
 ### `target="_blank"`
 this tag is open the link another tab!
-
+```
 	<a class="navbar-brand" href="http://hasantezcan.me" target="_blank">Presented by hasantezcan.me</a>
-
+```
 
 ### `Change your Navbar Theme`
 
@@ -135,13 +135,13 @@ example:
 
 ### `Navbar Fixed Top`
 
-	when you add this class your navbar it will stick in to the top your page. 
+- When you add this class your navbar it will stick in to the top your page.
 
-class="fixed-top"
+		class="fixed-top"
 
 ### `Jumbotron`
 
-It's a Information head title on site. 
+It's a Information head title on site.
 
 https://getbootstrap.com/docs/4.2/components/jumbotron/
 
@@ -172,9 +172,9 @@ Toggle contextual overlays for displaying lists of links and more with the Boots
 
 https://getbootstrap.com/docs/4.2/components/dropdowns/
 
-You can change the directions of arrow. 
+You can change the directions of arrow. example:
 
-	example: .dropup .dropright .dropleft
+	.dropup .dropright .dropleft
 
 https://getbootstrap.com/docs/4.2/components/dropdowns/#directions
 
@@ -186,9 +186,9 @@ https://getbootstrap.com/docs/4.0/components/card/
 
 https://getbootstrap.com/docs/4.0/components/card/#image-caps
 
-I did use in Bootstrap 4 Conf project card with this class 
+I did use in Bootstrap 4 Conf project card with this class
 
-<div class="col-md-6 col-lg-4">
+		<div class="col-md-6 col-lg-4">
 
 This class make my site to responsive . When the look this site with large screen, you can see  4 post but your screen is smaller you can see 2 post.
 
@@ -211,7 +211,7 @@ https://getbootstrap.com/docs/4.2/components/badge/
 
 ### `Displaying a Modal Window`
 
-The models like popups but the models contain some buttons or forms. 
+The models like popups but the models contain some buttons or forms.
 
 The models consists of two parts. First part is included models content. The second part is the trigger button to show models. Otherwise the you can not see the models without trigger button.
 
@@ -230,13 +230,13 @@ How we can use?
 
 add this class in your body tag
 
-data-spy="scroll" data-target="#navbar-example"
+	data-spy="scroll" data-target="#navbar-example"
 
 https://getbootstrap.com/docs/4.0/components/scrollspy/#usage
 
 If you want a change Scroll setting you can use those class. Add this class in body tag after what we have already added
 
-data-offset=""
+	data-offset=""
 
 https://getbootstrap.com/docs/4.0/components/scrollspy/#options
 
@@ -247,8 +247,6 @@ https://getbootstrap.com/docs/4.0/components/scrollspy/#options
 https://teamtreehouse.com/community/why-does-the-dataoffset-not-work-the-same-as-scrolling-when-clicking-on-links-in-the-navbar
 
 ---
-
-
 
 # `Form Groups and Form Controls`
 
@@ -316,7 +314,6 @@ https://getbootstrap.com/docs/4.3/components/forms/#checkboxes-and-radios
 </div>
 ```
 
-
 ### `Alerts`
 
 https://getbootstrap.com/docs/4.3/components/alerts/
@@ -328,8 +325,6 @@ https://getbootstrap.com/docs/4.3/components/alerts/#dismissing
 
 Bootstrap also provides an interactive alert box that closes when a user clicks the close icon.
 
-The alert box displays above the form and when you click the close icon, the alert box disappears. And notice the fading effect. 
+The alert box displays above the form and when you click the close icon, the alert box disappears. And notice the fading effect.
 
-```html
-class="fade show"
-``` 
+	class="fade show" 
